@@ -1,6 +1,6 @@
 " Compiler: gfortran
 " Maintainer: H Xu <xuhdev@gmail.com>
-" Version: 0.1
+" Version: 0.1.1
 " Last Change: 12 March 2011
 " License: You can redistribute this plugin and/or modify it under the terms 
 "          of the GNU General Public License as published by the Free Software 
@@ -18,4 +18,5 @@ endif
 CompilerSet errorformat=
             \%A%f:%l.%c:,
             \%Z%trror:\ %m,
+            \%Z%tarning:\ %m,
             \%C%.%#
